@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
@@ -19,3 +20,14 @@ ReactDOM.render(
   </Router>,
   document.getElementById("root")
 );
+=======
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
+
+
+>>>>>>> 0017f244c33bc66679171b5fba460ba90676226d
