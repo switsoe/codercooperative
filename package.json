@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dacup72/email-survey-manager.git"
+    "url": "git+https://github.com/switsoe/codercollective2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dacup72/email-survey-manager/issues"
+    "url": "https://github.com/switsoe/codercollective2.git"
   },
-  "homepage": "https://github.com/dacup72/email-survey-manager#readme",
+  "homepage": "https://github.com/switsoe/codercollective2.git",
   "dependencies": {
     "concurrently": "^3.6.0",
     "cookie-session": "^2.0.0-beta.3",
