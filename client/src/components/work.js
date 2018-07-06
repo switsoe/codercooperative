@@ -38,9 +38,9 @@ const Work = () => (
         <div className="card">
           <img className="card-img-top" src={knowpills} alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Know Pills</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
+            <a href="http://knowpills.net/" className="btn btn-primary">Visit</a>
           </div>
         </div>
       </div>
@@ -48,19 +48,19 @@ const Work = () => (
         <div className="card">
           <img className="card-img-top" src={drknow} alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Dr. Know</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
+            <a href="https://github.com/Pritch13/Project1BC" className="btn btn-primary">Visit</a>
           </div>
         </div>
       </div>
       <div className="col-md-4">
         <div className="card">
-          <img className="card-img-top" src={knowpills} alt="Card image cap" />
+          <img className="card-img-top" src={""} alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
+            <a href="#" className="btn btn-primary">Visit</a>
           </div>
         </div>
       </div>
