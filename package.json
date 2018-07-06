@@ -1,5 +1,5 @@
 {
-  "name": "email-survey-manager",
+  "name": "codercooperative",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,15 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/switsoe/codercollective2.git"
+    "url": "git+https://github.com/dacup72/email-survey-manager.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/switsoe/codercollective2.git"
+    "url": "https://github.com/dacup72/email-survey-manager/issues"
   },
-  "homepage": "https://github.com/switsoe/codercollective2.git",
+  "homepage": "https://github.com/dacup72/email-survey-manager#readme",
   "dependencies": {
+    "@material-ui/core": "^1.3.1",
     "concurrently": "^3.6.0",
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.3",
