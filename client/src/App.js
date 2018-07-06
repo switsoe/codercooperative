@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Jumbotron from './components/Jumbotron'
+import Homepage from './components/Hompage';
+import Info from './components/info';
+import Work from './components/work';
+import Form from './components/form';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <Homepage />
+    <Jumbotron />
+    <Info />
+    <Work />
+    <Form />
+  </div>
+);
 
 export default App;
