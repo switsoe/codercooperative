@@ -40,6 +40,10 @@ body{
 .pics{
     margin: 0 auto;
 }
-.form{
-    padding: 4%;
+.form-row{
+    padding: 1%;
+}
+.container {
+    
+    color: black;
 }
