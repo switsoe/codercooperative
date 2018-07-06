@@ -2,44 +2,66 @@ import React from "react";
 
 const Form = () => (
     <div className="container">
-    <div className="row">
-    <div className="col-md-12">
-    <h1 className="text-center">Order a website!</h1>
-    </div>
-    </div>
-    <form className="form">
-        <div className="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-  </div>
-            <div className="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select className="form-control" id="exampleFormControlSelect1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
+        <div className="row">
+            <div className="col-md-12">
+                <h1 className="text-center">Order a Website</h1>
             </div>
-            <div className="form-group">
-                <label for="exampleFormControlSelect2">Example multiple select</label>
-                <select multiple className="form-control" id="exampleFormControlSelect2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
+        </div>
+        <form className="form-row">
+            <div className="col-md-6">
+                <label for="exampleFormControlInput1">First Name:</label>
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="First Name" />
             </div>
-            <div className="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div className="col-md-6">
+                <label for="exampleFormControlInput1">Last Name:</label>
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Last Name" />
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-</div>
-
-        );
+        </form>
+        <form className="form-row">
+            <div className="col-md-6">
+                <label for="exampleFormControlInput1">Phone Number:</label>
+                <input type="number" className="form-control" id="exampleFormControlInput1" placeholder="999-999-9999" />
+            </div>
+            <div className="col-md-6">
+                <label for="exampleFormControlInput1">Email Address:</label>
+                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+            </div>
+        </form>
+        <div className="form-row">
+            <label for="exampleFormControlSelect1">Do you have a website?</label>
+            <select className="form-control" id="exampleFormControlSelect1">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+        </div>
+        <div className="form-row">
+                <label for="exampleFormControlInput1">Web Page Address</label>
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Address" />
+            </div>
+        <div className="form-row">
+            <label for="exampleFormControlSelect1">Do you want to link Social Media?</label>
+            <select className="form-control" id="exampleFormControlSelect1">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+        </div>
         
-        export default Form;
+        <form className="form-row">
+            <div className="input-group">
+                <div className="input-group-prepend">
+                    <span class="input-group-text">Concept Summary</span>
+                </div>
+                <textarea className="form-control" aria-label="With textarea"></textarea>
+            </div>
+        </form>
+
+        <form className="form-row">
+            <div className="col-md-12">
+                <button type="submit" className="btn btn-primary btn-lg">&lt;Submit/&gt;</button>
+            </div>
+        </form>
+    </div>
+
+);
+
+export default Form;
