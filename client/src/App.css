@@ -5,6 +5,22 @@
     border-radius: 0;
     color: white;
 }
+
+#tagline{
+    color:#EE2D73;
+    font-size: 2em;
+}
+
+h1 {
+    color: #EE2D73;
+    font-size: 4em;
+
+}
+
+#mission {
+    
+}
+
 .display-4{
     font-size: 90px;
     margin-top: 8%;
