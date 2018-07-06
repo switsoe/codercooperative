@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import Jumbotron from '../../components/Jumbotron'
+import React from 'react';
 import Homepage from '../../components/Hompage';
-import Info from '../../components/info';
-import Work from '../../components/work';
-import Form from '../../components/form';
+import Developergrid from '../../components/developergrid';
+import DevJumb from '../../components/DevJumb';
+
 
 const Devs = () => (
   <div>
     <Homepage />
-
+    <DevJumb />
+    <Developergrid />
   </div>
 );
 
