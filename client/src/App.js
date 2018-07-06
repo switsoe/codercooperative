@@ -1,19 +1,29 @@
-import React, { Component } from 'react';
+import React from "react";
 import './App.css';
-import Jumbotron from './components/Jumbotron'
-import Homepage from './components/Hompage';
-import Info from './components/info';
-import Work from './components/work';
-import Form from './components/form';
+import Homepage from "./pages/homepage";
+import Developers from './pages/developers';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  Redirect
+} from "react-router-dom";
+
 
 const App = () => (
-  <div>
-    <Homepage />
-    <Jumbotron />
-    <Info />
-    <Work />
-    <Form />
-  </div>
+  <Router>
+    <div>
+    <Switch>
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/developers" component={Developers} />
+        <Route path="/books/:id" component={Homepage} />
+        <Route path="/" exact component={Homepage} />
+        <Route component={Homepage} />
+      </Switch>
+    </div>
+  </Router>
 );
 
 export default App;
+
