@@ -37,11 +37,6 @@ const Devs = () => (
                 </div>
             </div>
         </div>
-        <div className="row">
-        <div className="col-md-12 text-center">
-        <button type="button" class="btn btn-primary signupbutton">Join the team!</button>
-        </div>
-        </div>
     </div>
 
 );
