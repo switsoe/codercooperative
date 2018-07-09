@@ -19,7 +19,7 @@ class Devs extends Component {
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="person-wrapper">
             <Image src={require ("./images/Scott.png")} className="profile-pic rounded-circle" />
-            <p>A lager related to a colt 45, the Lone Star over the Labatts, and the miller light are what made America great! A St. Pauli Girl for a Jamaica Red Ale finds lice on the infected miller. Another Left Hand Milk Stout gives lectures on morality.</p>
+            <p>A lager related to a colt 45, the Lone Star over the Labatts, and the miller light are what made America great! A St. Pauli Girl for a Jamaica Red Ale finds lice on the infected miller. Another Left Hand Milk.</p>
           </Col>
 
           <Col xs={12} sm={4} className="person-wrapper">
@@ -39,7 +39,7 @@ class Devs extends Component {
             <p>Mizzen spyglass rigging lanyard Yellow Jack jolly boat handsomely Sink me fathom code of conduct. Scourge of the seven seas piracy lugsail parrel trysail gangplank holystone spirits blow the man down fore. Blow the man down topsail league trysail barque mizzenmast wench swing the lead Jolly Roger interloper.</p>
           </Col>
 
-          <Col xs={12} sm={4} md={4} mdPush={3}  className="person-wrapper">
+          <Col xs={12} sm={4} md={4} mdPush={2}  className="person-wrapper">
             <Image src={require ("./images/Des.png")} className="profile-pic rounded-circle" />
             <p>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe”.</p>
           </Col>
