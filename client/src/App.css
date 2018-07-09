@@ -122,3 +122,14 @@ body{
         margin-top: 25vw;
     }
 }
+
+.btn {
+    width: 150px;
+    font-size: 25px;
+    background: #A9CF38;
+}
+
+.profile-pic {
+    width: 150px
+}
+

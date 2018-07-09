@@ -55,11 +55,11 @@ const Form = () => (
             </div>
         </form>
 
-        <form className="form-row">
-            <div className="col-md-12">
-                <button type="submit" className="btn btn-primary btn-lg">&lt;Submit/&gt;</button>
-            </div>
-        </form>
+        <div className="row">
+        <div className="col-md-12 text-center">
+        <button type="button" class="btn btn-primary signupbutton">Submit</button>
+        </div>
+        </div>
     </div>
 
 );
