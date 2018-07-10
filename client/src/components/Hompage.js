@@ -9,7 +9,7 @@ const Homepage = () => (
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <a className="nav-link" href="/">&lt;home /&gt;<span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
