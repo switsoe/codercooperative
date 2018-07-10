@@ -15,10 +15,15 @@ const Homepage = () => (
           <li className="nav-item">
             <a className="nav-link" href="/developers">&lt;developers /&gt;</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/developers">&lt;Login /&gt;</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/developers">&lt;Sign Up With Google /&gt;</a>
+          </li>
         </ul>
       </div>
     </nav>
-
 );
 
 export default Homepage;
