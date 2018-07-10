@@ -4,7 +4,7 @@ const DevForm = () => (
     <div className="container">
         <div className="row">
             <div className="col-md-12">
-                <h1 className="text-center">Join the Team</h1>
+                <h1 className="text-center">join the HIVE</h1>
             </div>
         </div>
         <form className="form-row">
@@ -39,7 +39,7 @@ const DevForm = () => (
         </form>
         <div className="row">
         <div className="col-md-12 text-center">
-        <button type="button" class="btn btn-primary signupbutton">Join the team!</button>
+        <button type="button" class="btn btn-primary signupbutton">join the hive!</button>
         </div>
         </div>
     </div>

@@ -8,18 +8,19 @@ class Devs extends Component {
       <Grid>
         <div className="container devgrid">
           <div className="row">
-            <div className="col-lg-12">
-                <h1 className="text-center devtext">Visit their work below</h1>
-            </div>
+     
           </div>
         </div>
 
-        <Image src={require ("./images/coderCooperative-MAIN.png")}className="header-image img-responsive mx-auto d-block" />  
-
+        {/* <Image src={require ("./images/coderCooperative-MAIN.png")}className="header-image img-responsive mx-auto d-block" />   */}
+        <img src={require("../components/images/coderCooperative-MAIN.png")} style={{width: '500px', height: '284.114px'}} className="header-image img-responsive mx-auto d-block"/>     
         <Row className="show-grid text-center">
+        <div className="col-lg-12">
+                <h1 className="text-center devtext">Meet the Developers</h1>
+            </div>
           <Col xs={12} sm={4} className="person-wrapper">
             <Image src={require ("./images/Scott.png")} className="profile-pic rounded-circle" />
-            <p>A lager related to a colt 45, the Lone Star over the Labatts, and the miller light are what made America great! A St. Pauli Girl for a Jamaica Red Ale finds lice on the infected miller. Another Left Hand Milk.</p>
+            <p>I am a freshly minted full-stack web developer that has recently stepped away from operating a brewery I started in 2011. In running a small business, I have always sensed the big picture and developed the skill of seeing around corners. Adaptation and problem solving was a daily occurence. After successfully moving into Strange Craft Beer Company to form Denver’s first co-taproom, I decided it was time for a new challenge and enrolled in the University of Denver’s boot camp certificate program.</p>
           </Col>
 
           <Col xs={12} sm={4} className="person-wrapper">
