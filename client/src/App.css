@@ -147,14 +147,29 @@ body{
     width: 150px;
     font-size: 25px;
     background: #A9CF38;
-    color: #292B44;
+    color: white;
     border: #8594CB;
+}
+.btn:hover {
+    background: white;
+    color: #A9CF38;
 }
 
 .profile-pic {
     width: 150px;
 }
-
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+.devName{
+    color: white;
+}
+.person-wrapper{
+    background: #7a7a7f73;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px white solid;
+}
 
 
 
