@@ -37,17 +37,17 @@ class Devs extends Component {
           </Col>
         </Row>
 
-        <Row className="show-grid text-center">
+        <Row className="show-grid text-center justify-content-around">
           <Col xs={12} sm={4} md={4} mdPush={2} className="person-wrapper">
             <Image src={require ("./images/Rob.png")} className="profile-pic rounded-circle" />
             <h2>Rob</h2>
-            <p className="devName">Mizzen spyglass rigging lanyard Yellow Jack jolly boat handsomely Sink me fathom code of conduct. Scourge of the seven seas piracy lugsail parrel trysail gangplank holystone spirits blow the man down fore. Blow the man down topsail league trysail barque mizzenmast wench swing the lead Jolly Roger interloper.</p>
+            <p className="devName">After many years working for Fortune 500 companies in corporate America I had finally decided to hang up the suit and tie and turn my passion into my career. I have spent the last couple of years learning front end web development with great success. To solidify my skills and expose myself to the ‘Full-Stack’, I enrolled in University of Denver's Full-Stack Web Developer Boot Camp. My background in leadership, information technology, and sales has made me an extremely well-rounded contributor.</p>
           </Col>
 
           <Col xs={12} sm={4} md={4} mdPush={2}  className="person-wrapper">
             <Image src={require ("./images/Des.png")} className="profile-pic rounded-circle" />
             <h2>Desiree</h2>
-            <p className="devName">Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe”.</p>
+            <p className="devName">A recent Univ. of Denver Boot Camp graduate with full-stack exposure, specializing in front-end HTML and CSS. Previous experience includes assisting in the creation of a company intranet for employee resources.  I enjoy working individually and as a team and seeing projects come alive.</p>
           </Col>
         </Row>
       </Grid>
