@@ -5,7 +5,7 @@ const Jumbotron = () => (
         <h1 className="display-4"> 
         <img src={require("../components/images/coderCooperative-MAIN.png")} style={{width: '500px', height: '284.114px'}}/>     
         </h1>
-        <p className="lead" id="tagline">Code For Experience<br/>==<br/>Experience Solutions</p>
+        <p className="lead" id="tagline">building EXPERIENCE by building TECHNOLOGY</p>
     </div>
 
         );
