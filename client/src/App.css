@@ -15,12 +15,14 @@ Background image = 292B44 */
     border-radius: 0;
     color: #292B44;
     background-color: transparent;  
+
 }
 /* #devjumb{
     background: url("../src/components/images/background_cC.png")no-repeat center center fixed;
     background-size: 100%;
     min-height: 80vh;
     background-color: transparent;  
+    padding: -8rem; 
 } */
 
 #tagline{
@@ -171,9 +173,8 @@ p{
     border: 2px white solid;
 }
 
-
-
-
-
-
-
+/* @media (min-width: 576px) {
+    #devjumb {
+        padding: -12rem 2rem;
+    }
+} */
