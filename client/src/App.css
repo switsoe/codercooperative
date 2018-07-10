@@ -126,8 +126,20 @@ body{
 
 @media screen and (max-width: 850px) {
     .text-center {
-        font-size: 10vw;
+        font-size: 5vw;
         margin-top: 25vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #mission {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .devName {
+        font-size: 50%;
     }
 }
 
@@ -140,6 +152,13 @@ body{
 }
 
 .profile-pic {
-    width: 150px
+    width: 150px;
 }
+
+
+
+
+
+
+
 
