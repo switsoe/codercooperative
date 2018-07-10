@@ -105,6 +105,9 @@ body{
 .container {
     color: #A9CF38;
 }
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
     color: #A9CF38;
 }
