@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom'
 import { Route, Link } from 'react-router-dom'
 import axios from 'axios'
 
+
 class Homepage extends Component {
   constructor(props) {
     super(props)
@@ -11,6 +12,7 @@ class Homepage extends Component {
       username: null
     }
   }
+
 
   componentDidMount(props) {
     this.setState({
