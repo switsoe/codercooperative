@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 
 //your local database url
-const uri = 'mongodb://localhost:27017/coderdevs' 
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/coderdevs';
 
 mongoose.connect(uri).then(
     () => { 
