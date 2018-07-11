@@ -1,10 +1,10 @@
 import React from "react";
 
-const Form = () => (
-    <div className="container" id="formtext">
+const DevForm = () => (
+    <div className="container">
         <div className="row">
             <div className="col-md-12">
-                <h1 className="text-center">Start Your Project!</h1>
+                <h1 className="text-center">join the HIVE</h1>
             </div>
         </div>
         <form className="form-row">
@@ -27,41 +27,23 @@ const Form = () => (
                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
             </div>
         </form>
-        <div className="form-row">
-            <label for="exampleFormControlSelect1">Do you have a website?</label>
-            <select className="form-control" id="exampleFormControlSelect1">
-                <option>Yes</option>
-                <option>No</option>
-            </select>
-        </div>
-        <div className="form-row">
-                <label for="exampleFormControlInput1">Web Page Address</label>
-                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Address" />
-            </div>
-        <div className="form-row">
-            <label for="exampleFormControlSelect1">Do you want to link Social Media?</label>
-            <select className="form-control" id="exampleFormControlSelect1">
-                <option>Yes</option>
-                <option>No</option>
-            </select>
-        </div>
-        
         <form className="form-row">
-            <div className="input-group">
-                <div className="input-group-prepend">
-                    <span class="input-group-text">Concept Summary</span>
-                </div>
-                <textarea className="form-control" aria-label="With textarea"></textarea>
+            <div className="col-md-6">
+                <label for="exampleFormControlInput1">GitHub URL</label>
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="URL Address" />
+            </div>
+            <div className="col-md-6">
+                <label for="exampleFormControlInput1">Personal Image</label>
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Image Source" />
             </div>
         </form>
-
         <div className="row">
         <div className="col-md-12 text-center">
-        <button type="button" class="btn btn-primary signupbutton">Submit</button>
+        <button type="button" class="btn btn-primary signupbutton">join the hive!</button>
         </div>
         </div>
     </div>
-
+        
 );
 
-export default Form;
+export default DevForm;

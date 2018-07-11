@@ -11,21 +11,21 @@ Background image = 292B44 */
 .jumbotron{
     /* background: url("../src/components/images/background_cC.png")no-repeat center center fixed; */
     background-size: 100%;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     border-radius: 0;
     color: #292B44;
     background-color: transparent;  
 }
-#devjumb{
-    /* background: url("../src/components/images/background_cC.png")no-repeat center center fixed; */
+/* #devjumb{
+    background: url("../src/components/images/background_cC.png")no-repeat center center fixed;
     background-size: 100%;
     min-height: 80vh;
     background-color: transparent;  
-}
+} */
 
 #tagline{
-    color:#A9CF38;
-    font-size: 2em;
+    color:#F9F8F2;
+    font-size: 1.9em;
     text-align: center; 
 }
 
@@ -48,7 +48,7 @@ h1 {
 
 .display-4{
     font-size: 90px;
-    margin-top: 8%;
+    margin-top: 1%;
     text-align: center;
 }
 body{
@@ -64,8 +64,11 @@ body{
 .navbar-brand{
     font-size: 18pt;
 }
-.work{
-    /* background: url("../src/components/images/background_cC.png")no-repeat center center fixed; */
+#root{
+    background: url("../src/components/images/background_cC.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .workrow{
     padding: 4%;
@@ -85,7 +88,7 @@ body{
     padding: 4%;
 }
 .devgrid{
-    margin-top: 4%;
+    /* margin-top: 4%; */
 }
 .devtext {
     margin-bottom: 4%;
@@ -97,7 +100,9 @@ body{
     margin: 5%;
     background-color: #8594CB;
     border: #F9F8F2;
-    color: #F9F8F2;
+    color: #292B44;
+    text-align: center;
+    
 }
 .form-row{
     padding: 1%;
@@ -105,6 +110,77 @@ body{
 .container {
     color: #A9CF38;
 }
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
+    color: #F9F8F2;
+}
+.navbar-light .navbar-nav .nav-link:hover {
     color: #A9CF38;
 }
+
+@media screen and (max-width: 850px) {
+    .display-4 {
+        font-size: 10vw;
+        margin-top: 25vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text-center {
+        font-size: 5vw;
+        margin-top: 25vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #mission {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .devName {
+        font-size: 50%;
+    }
+}
+
+.btn {
+    width: 150px;
+    font-size: 25px;
+    background: #A9CF38;
+    color: white;
+    border: #8594CB;
+}
+.btn:hover {
+    background: white;
+    color: #A9CF38;
+}
+
+.profile-pic {
+    width: 150px;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+.devName{
+    color: white;
+}
+.person-wrapper{
+    background: #7a7a7f73;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px white solid;
+}
+
+.text-center {
+    margin: 20px;
+}
+
+.header-image {
+    margin-top: -82.5px;
+}
+
+
+
+
+
+
