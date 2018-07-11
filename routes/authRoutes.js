@@ -18,6 +18,7 @@ module.exports = app => {
   // Log out the current user
   app.get('/api/logout', (req, res) => {
     req.logout();
+    console.log("LOG OUT SUCCESSFUL IF NOTHING HERE: " + req.user)
     res.send(req.user);
   });
 
@@ -25,7 +26,7 @@ module.exports = app => {
   app.get('/api/current_user', (req, res) => {
     // "req.session" contains the cookies data
     // res.send(req.session);
-    
+    console.log("CURRENT USER: " + req.user)
     res.send(req.user);
   });
 

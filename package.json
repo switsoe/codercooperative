@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
+    "server": "nodemon server/server.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
@@ -32,6 +32,15 @@
     "mongoose": "^5.1.7",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
+
+    "axios": "^0.17.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "passport-local": "^1.0.0"
     "react-bootstrap": "^0.32.1"
+
   }
 }
