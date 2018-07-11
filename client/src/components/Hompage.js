@@ -47,28 +47,7 @@ class Homepage extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">
-            {loggedIn ? (
-              <span>
-                <p style="color: white">Welcome: {this.state.username}!</p>
-                <li className="nav-item">
-                  <Link to="#" className="btn btn-link text-secondary" onClick={this.logout}>
-                    <span className="text-secondary">logout</span></Link>
-                </li>
-              </span>
-            ) : (
-                <span>
-                  <li className="nav-item">
-                    <Link to="/login" className="btn btn-link text-secondary">
-                      <span className="text-secondary">login</span>
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link to="/signup" className="btn btn-link">
-                      <span className="text-secondary">sign up</span>
-                    </Link>
-                  </li>
-                </span>
-              )}
+
             <li className="nav-item">
               <a className="nav-link" href="/">&lt;home /&gt;<span className="sr-only">(current)</span></a>
             </li>
@@ -76,6 +55,28 @@ class Homepage extends Component {
               <a className="nav-link" href="/developers">&lt;developers /&gt;</a>
             </li>
           </ul>
+          {loggedIn ? (
+              <span>
+                <p style="color: white">Welcome: {this.state.username}!</p>
+                <li className="nav-item">
+                  <Link to="#" className="btn btn-link text-secondary" onClick={this.logout}>
+                    <span className="text-secondary">Logout</span></Link>
+                </li>
+              </span>
+            ) : (
+                <span>
+                  <li className="nav-item">
+                    <Link to="/login" className="btn btn-link text-secondary">
+                      <span className="text-secondary">Login</span>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link to="/signup" className="btn btn-link text-secondary">
+                      <span className="text-secondary">Sign up</span>
+                    </Link>
+                  </li>
+                </span>
+              )}
         </div>
       </nav>
     )

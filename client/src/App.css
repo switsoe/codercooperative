@@ -55,6 +55,10 @@ h1 {
 }
 body{
     font-family: 'Oswald', sans-serif;
+    background: url("../src/components/images/background_cC.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .navbar {
     position: fixed;
@@ -67,10 +71,10 @@ body{
     font-size: 18pt;
 }
 #root{
-    background: url("../src/components/images/background_cC.png");
+    /* background: url("../src/components/images/background_cC.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 .workrow{
     padding: 4%;
@@ -180,6 +184,26 @@ p{
 
 .header-image {
     margin-top: -83px;
+}
+.text-secondary{
+    background: transparent;
+}
+.form-label{
+    color: white;
+}
+h4 {
+    color: white;
+}
+.nav-item{
+    list-style-type: none;
+}
+.loginrow{
+    margin-top: 10%;
+    font-size: 25px;
+}
+.loginbtn{
+    display: block;
+    margin: 0 auto;
 }
 
 
