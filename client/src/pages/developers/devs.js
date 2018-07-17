@@ -1,15 +1,14 @@
 import React from 'react';
-import Homepage from '../../components/Hompage';
 import Developergrid from '../../components/developergrid';
 import DevJumb from '../../components/DevJumb';
-import DevForm from '../../components/DevForm';
+import Header from '../../components/Header';
+
 
 const Devs = () => (
   <div>
-    <Homepage />
+    {/* <Header /> */}
     <DevJumb />
     <Developergrid />
-    <DevForm />
   </div>
 );
 
