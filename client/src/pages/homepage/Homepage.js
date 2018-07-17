@@ -3,7 +3,7 @@ import Jumbotron from '../../components/Jumbotron'
 import Info from '../../components/info';
 import Work from '../../components/work';
 import Form from '../../components/form';
-import Header from '../../components/Header';
+
 
 
 
@@ -14,7 +14,7 @@ class Index extends Component {
   render() {
     return (
       <div>
-      {/* <Header / > */}
+    
         <Jumbotron />
         <Info />
         <Work />

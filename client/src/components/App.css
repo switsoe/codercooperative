@@ -1,15 +1,7 @@
-/* logo hex codes:
-Light Gray = F9F8F2
-Pink = EE2D73
-Green = A9CF38
-Blue = 8594CB
-Yellow = E3E230
-Orange = F89724
-Background image = 292B44 */
+/* 
 
 
 .jumbotron{
-    /* background: url("../src/components/images/background_cC.png")no-repeat center center fixed; */
     background-size: 100%;
     min-height: 80vh;
     border-radius: 0;
@@ -17,7 +9,6 @@ Background image = 292B44 */
     background-color: transparent;  
 }
 #devjumb{
-    /* background: url("../src/components/images/background_cC.png")no-repeat center center fixed; */
     background-size: 100%;
     min-height: 80vh;
     background-color: transparent;  
@@ -65,7 +56,6 @@ body{
     font-size: 18pt;
 }
 .work{
-    /* background: url("../src/components/images/background_cC.png")no-repeat center center fixed; */
 }
 .workrow{
     padding: 4%;
@@ -104,7 +94,4 @@ body{
 }
 .container {
     color: #A9CF38;
-}
-.nav-link {
-    color: #A9CF38;
-}
+} */
