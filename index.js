@@ -14,7 +14,6 @@ require('./services/passport');
 
 // Connect to chosen mongoURI
 mongoose.connect(keys.mongoURI);
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/coderdevs");
 
 // Initializes express 
 const app = express();
