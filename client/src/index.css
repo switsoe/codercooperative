@@ -3,6 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: transparent;
-  background: url("../src/components/images/background_cC.png");
+  /* background: url("./components/images/background_cC.png"); */
   background-size: 100%
 }

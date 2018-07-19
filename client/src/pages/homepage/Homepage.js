@@ -14,7 +14,6 @@ class Index extends Component {
   render() {
     return (
       <div>
-    
         <Jumbotron />
         <Info />
         <Work />
