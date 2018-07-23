@@ -1,5 +1,5 @@
 {
-  "name": "codercooperative",
+  "name": "codercooperative-1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dacup72/email-survey-manager.git"
+    "url": "git+https://github.com/dacup72/codercooperative-1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dacup72/email-survey-manager/issues"
+    "url": "https://github.com/dacup72/codercooperative-1/issues"
   },
-  "homepage": "https://github.com/dacup72/email-survey-manager#readme",
+  "homepage": "https://github.com/dacup72/codercooperative-1#readme",
   "dependencies": {
     "concurrently": "^3.6.0",
     "cookie-session": "^2.0.0-beta.3",
