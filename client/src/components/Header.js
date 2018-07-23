@@ -28,7 +28,7 @@ class Header extends Component {
           <li key="2" className="nav-item">
             <Payments />
           </li>,
-          <li key="3" className="nav-item">
+          <li key="3" className="nav-item" style={{color: "white"}}>
             Credits: {this.props.auth.credits}
           </li>
         ];
@@ -37,7 +37,7 @@ class Header extends Component {
 
   render() {
     // this.props contains the users login object
-    console.log("Current user: ", this.props);
+    // console.log("Current user: ", this.props);
     return (
 
 
