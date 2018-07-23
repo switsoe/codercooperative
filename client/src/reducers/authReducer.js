@@ -1,3 +1,4 @@
+// All react components refresh when reducer updates the state
 import { FETCH_USER } from "../actions/types";
 
 // Determines if the user is logged in or not
@@ -10,4 +11,4 @@ export default function(state = null, action) {
     default:
       return state;
   }
-}
+};

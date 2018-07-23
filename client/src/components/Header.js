@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Payments from './Payments';
+
 
 class Header extends Component {
   // Determines content to show based on users login status
@@ -12,17 +14,24 @@ class Header extends Component {
       case false: ;
         return (
           <li className="nav-item">
-              <a className="nav-link" href="/auth/google">&lt;Login With Google /&gt;</a>
-            </li>
-          
+            <a className="nav-link" href="/auth/google">&lt;Login With Google /&gt;</a>
+          </li>
+
+
         );
 
       default:
-        return (
-          <li className="nav-item">
-              <a className="nav-link" href="/api/logout">&lt;Logout /&gt;</a>
-            </li>
-        );
+        return [
+          <li key="1" className="nav-item">
+            <a className="nav-link" href="/api/logout">&lt;Logout /&gt;</a>
+          </li>,
+          <li key="2" className="nav-item">
+            <Payments />
+          </li>,
+          <li key="3" className="nav-item">
+            Credits: {this.props.auth.credits}
+          </li>
+        ];
     }
   }
 
@@ -58,7 +67,7 @@ class Header extends Component {
 
 
 
-      
+
     );
   };
 };

@@ -1,5 +1,6 @@
 // Imports
 const express = require('express');
+const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const keys = require('./config/keys');
 // Cookie based session middleware 
@@ -9,7 +10,6 @@ const passport = require('passport');
 // Initialize mongoose / mongoDB collection for users
 require('./models/User');
 
-
 // Initialize Passport.js config
 require('./services/passport');
 
@@ -18,6 +18,9 @@ mongoose.connect(keys.mongoURI);
 
 // Initializes express 
 const app = express();
+
+// Adds body parser middleware to express
+app.use(bodyParser.json());
 
 // Set up cookie session
 app.use(
@@ -30,13 +33,28 @@ app.use(
   })
 );
 
-
 // Initialize Passport with Express
 app.use(passport.initialize());
 app.use(passport.session());
 
 // Routes
-require('./routes/authRoutes')(app); 
+require('./routes/authRoutes')(app);
+require('./routes/billingRoutes')(app); 
+
+// If in production mode then handle this...
+if (process.env.NODE_ENV === 'production') {
+  // If Express recognizes this route from the front end react router then
+  // Express will server up production assets
+  // like main.js file, or main.css file
+  app.use(express.static('client/build'));
+
+  // Express will serve up the index.html file
+  // if it doesn't recognize the route from react routes (front end routes)
+  const path = require('path');
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+};
 
 // Sets up PORT for Node.js to listen on.
 const PORT = process.env.PORT || 8080;
