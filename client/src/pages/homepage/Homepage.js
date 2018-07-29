@@ -1,18 +1,41 @@
 import React, { Component } from 'react';
 import Jumbotron from '../../components/Jumbotron'
-import Homepage from '../../components/Hompage';
 import Info from '../../components/info';
 import Work from '../../components/work';
 import Form from '../../components/form';
 
-const Index = () => (
-  <div>
-    <Homepage />
-    <Jumbotron />
-    <Info />
-    <Work />
-    <Form />
-  </div>
-);
+
+
+
+class Index extends Component {
+
+
+
+  render() {
+    return (
+      <div>
+        <Jumbotron />
+        <Info />
+        <Work />
+        {/* <Form
+          handleInputChange={this.handleInputChange}
+          handleFormSubmit={this.handleFormSubmit}
+          handleGoogleSignup={this.handleGoogleSignup}
+          handleLogout={this.handleLogout}
+          firstName={this.state.firstName} 
+          lastName={this.state.lastName} 
+          phoneNumber={this.state.phoneNumber} 
+          emailAddress={this.state.emailAddress} 
+          userWebsite={this.state.userWebsite} 
+          webAddress={this.state.webAddress} 
+          linkSocial={this.state.linkSocial} 
+          conceptSummary={this.state.conceptSummary} 
+        /> */}
+      </div>
+    )
+  }
+}
+
+
 
 export default Index;
